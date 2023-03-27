@@ -1,0 +1,14 @@
+Namespace(aim_repo=None, aim_run_hash=None, align_suffix=None, alignfile=None, all_gather_list_size=16384, amp=False, amp_batch_retries=2, amp_init_scale=128, amp_scale_window=None, azureml_logging=False, bf16=False, bpe='byte_bpe', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='data-bin/custom.tokenized.en-fa', dict_only=False, empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_file=None, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, on_cpu_convert_precision=False, only_source=False, optimizer='nag', padding_factor=8, plasma_path='/tmp/plasma', profile=False, quantization_config_path=None, reset_logging=False, scoring='bleu', seed=1, source_lang='en', srcdict=None, suppress_crashes=False, target_lang='fa', task='translation', tensorboard_logdir=None, testpref='/content/preprocessed_test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer='moses', tpu=False, trainpref='/content/preprocessed_train', use_plasma_view=False, user_dir=None, validpref='/content/preprocessed_valid', wandb_project=None, workers=1)
+[en] Dictionary: 32736 types
+[en] /content/preprocessed_train.en: 30000 sents, 540137 tokens, 0.0% replaced (by <unk>)
+[en] Dictionary: 32736 types
+[en] /content/preprocessed_valid.en: 400 sents, 6876 tokens, 3.0% replaced (by <unk>)
+[en] Dictionary: 32736 types
+[en] /content/preprocessed_test.en: 427 sents, 11176 tokens, 3.7% replaced (by <unk>)
+[fa] Dictionary: 41400 types
+[fa] /content/preprocessed_train.fa: 30000 sents, 529679 tokens, 0.0% replaced (by <unk>)
+[fa] Dictionary: 41400 types
+[fa] /content/preprocessed_valid.fa: 400 sents, 6563 tokens, 4.53% replaced (by <unk>)
+[fa] Dictionary: 41400 types
+[fa] /content/preprocessed_test.fa: 427 sents, 11581 tokens, 5.92% replaced (by <unk>)
+Wrote preprocessed data to data-bin/custom.tokenized.en-fa
