@@ -11,6 +11,7 @@ For the training and evaluation of the models of this project, a small part of t
 * Preprocessing
 * Explaining important parameters of OpenNMT and Fairseq.
 * Implementing `BPE`
+* Using OpenNMT & Fairseq
 * Showing `Blue` result 
 
 Contributer: [Sheyda Eshaghi](https://github.com/sheydaes)
